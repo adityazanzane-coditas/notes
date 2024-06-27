@@ -1,0 +1,47 @@
+name: food_delivery_app
+description: "A Food Delivery App."
+publish_to: 'none' 
+version: 1.0.0+1
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.10+1
+  flutter_zoom_drawer: ^3.2.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/start_screen/
+    - assets/login_screen/
+    - assets/home_screen/
+    - assets/bottom_nav_bar/
+    - assets/pages/
+    - assets/profile_page/
+    - assets/food_details_screen/
+    - assets/item_not_found/
+    - assets/no_internet_screen/
+    - assets/cart_screen/
+    - assets/food_results_screen/
+    - assets/menu_bar/
+
+  fonts:
+  - family: SFProRounded
+    fonts:
+      - asset: assets/fonts/FontsFree-Net-SF-Pro-Rounded-Regular.ttf
+        weight: 400
+      - asset: assets/fonts/FontsFree-Net-SF-Pro-Rounded-Semibold.ttf
+        weight: 600
+      - asset: assets/fonts/FontsFree-Net-SF-Pro-Rounded-Bold.ttf
+        weight: 700
+      - asset: assets/fonts/FontsFree-Net-SF-Pro-Rounded-Heavy.ttf
+        weight: 800

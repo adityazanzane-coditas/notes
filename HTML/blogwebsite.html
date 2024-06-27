@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <style>
+        ul{
+            list-style: none;
+        }
+        li{
+            border: 1px solid black;
+
+            width: 180px;
+
+            padding: 10px;
+
+            background-color: lightseagreen;
+
+        }
+        .Blog{
+            width: 20%;
+        }
+        .mid{
+            width: 20px;
+        }
+        .table{
+
+            height: 100px;
+            
+            width: 200px;
+            
+            list-style: 25px solid black;
+        }
+        footer{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="background-color: grey;"><center><cite>BlogSite</cite></center></h1>
+    <table>
+        <tr>
+            <td class="Blog">
+            <ul><center>
+                <li>Home</li>
+                <li>About</li>
+                <li>Profile</li>
+                <li>Reach</li>
+            </center>
+            </ul>
+            </td>
+
+            <td class="mid">
+                Html Notes:
+                <fieldset>
+                    Scripting language for doc sharing frontend lang to present data on webpage
+
+                    Class connect to CSS with script tag
+
+                    Doc type html 
+
+                    Only 1 html tag In page
+
+                    Meta tag for properties	
+                    Textual tags - inline structured 
+                    Div Tag
+                    Section tag-bigger than div tag
+
+                    - [ ] Aside tag- It depends on other words to move aside
+                    - [ ] Semantics is for hero(imp part of page) section (Semantics is way to understand for a developer for a single page app and multi page app)
+                    - [ ] Footer is not included in main section because of semantics
+                    - [ ] Break tag affects the semantics
+                    - [ ] Form Tag - Imp tag used in Html (taking inputs from the user).
+                    - [ ] Form Tag-get tag, post tag
+                    - [ ] Label is used in form tag due to semantics
+                    - [ ] Form elements - Input, buttons, radio button, passwords(input type)
+                    - [ ] Input and buttons are diff as we can use many operation in buttons as it is self closing tags and put is not self closing tags.We have to override more CSS for input type while it is NA for button.
+                    - [ ] Trademark - &trade;
+                    </fieldset>
+                
+            </td>
+            <td class="Blog">
+                <table border="2">
+
+                    <tr class="table">
+                        <td class="table">
+                            HelpDesk
+                        </td>
+                        <td class="table">
+                            Reference Desk
+                        </td>
+                    </tr>
+                    <tr class="table">
+                        <td class="table">
+                            Content Portals
+                        </td>
+                        <td class="table">
+                            Quote
+                        </td>
+                    </tr>
+                    <tr class="table">
+                        <td class="table">
+                            Address
+                        </td>
+                        <td class="table">
+                            News
+                        </td>
+                    </tr>
+                </table>
+            </table></td>
+        </tr>
+    </table>
+
+    <footer>
+        <pre> 
+        <b>Contact Info:</b>
+                   
+            First name: <input type="text"/>
+        
+            Last name: <input type="text"/>
+        
+            Email: <input type="email"/>
+
+            Gender:- <input type="radio" name="agree" value="Male">Male <input type="radio" name="agree" value="Female">Female
+        
+            Discuss: 
+            <textarea id="text" name="text" rows="4" cols="50"></textarea>
+            
+            <input type="button" value="Submit" onClick="window.location.reload(true)">
+        </pre>
+    </footer>
+</body>
+</html>
